@@ -1,4 +1,4 @@
-package id.bakode.karlota.utils.resources
+package id.bakode.core.common.utils.resources
 
 enum class DataState {
     SUCCESS,

@@ -1,4 +1,4 @@
-package id.bakode.karlota.utils.datetime
+package id.bakode.core.common.utils.datetime
 
 enum class TimeDifference(val timeDifference: Int) {
     SECOND(0),
