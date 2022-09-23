@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="id.bakode.karlota">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
-        android:name=".KarlotaMessengerApp"
+        android:name=".KarlotaApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -14,12 +17,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KarlotaMessenger"
         tools:targetApi="31">
+        <profileable
+            android:shell="true"
+            tools:targetApi="q" />
+
         <activity
-            android:name=".presentations.activities.launcher.LauncherActivity"
+            android:name=".LauncherActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.KarlotaMessenger"
-            tools:ignore="RedundantLabel">
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

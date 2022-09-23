@@ -1,6 +1,10 @@
 package id.bakode.karlota.utils.resources
 
-import id.bakode.karlota.enums.DataState
+enum class DataState {
+    SUCCESS,
+    ERROR,
+    LOADING
+}
 
 sealed class DataResult<out R> {
     data class Success<out T>(

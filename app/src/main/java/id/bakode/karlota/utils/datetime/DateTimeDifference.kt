@@ -1,6 +1,13 @@
 package id.bakode.karlota.utils.datetime
 
-import id.bakode.karlota.enums.TimeDifference
+enum class TimeDifference(val timeDifference: Int) {
+    SECOND(0),
+    MINUTE(1),
+    HOUR(2),
+    DAY(3),
+    MONTH(4),
+    YEAR(5);
+}
 
 class DateTimeDifference {
     fun calculate(

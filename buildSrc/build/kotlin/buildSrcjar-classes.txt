@@ -1,0 +1,1 @@
+/Users/admin/Documents/Projects/bakode.id/karlota/karlota-android/buildSrc/build/classes/kotlin/main/Configurations.class
