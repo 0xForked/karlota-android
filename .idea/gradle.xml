@@ -31,6 +31,10 @@
             <option value="$PROJECT_DIR$/core-datastore" />
             <option value="$PROJECT_DIR$/core-designsystem" />
             <option value="$PROJECT_DIR$/core-network" />
+            <option value="$PROJECT_DIR$/featureauth" />
+            <option value="$PROJECT_DIR$/featurechat" />
+            <option value="$PROJECT_DIR$/featurevc" />
+            <option value="$PROJECT_DIR$/featurevoip" />
           </set>
         </option>
       </GradleProjectSettings>
