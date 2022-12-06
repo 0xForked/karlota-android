@@ -1,7 +1,6 @@
 package id.bakode.karlota.ui
 
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import id.bakode.karlota.LauncherContent
 import id.bakode.karlota.core.designsystem.component.KarlotaBackground
 import id.bakode.karlota.core.designsystem.theme.KarlotaTheme
